@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1366px;
+    position: relative;
+}
+.box {
+    width: 620px ;
+    height: 620px;
+    position: absolute;
+}
+.box:hover {
+    z-index: 1;
+}
+.box1 {
+    background: red;
+    top: 40px;
+    left: 130px;
+}
+.box2 {
+    background: #00ff00;
+    top: 100px;
+    left: 600px;
+}
+.box3 {
+    background: blue;
+    top: 530px;
+    left: 110px;
+}
+.box4 {
+    background: yellow;
+    top: 620px;
+    left: 660px;
+}
+.boxCircle {
+    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    background: #555555;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+.span1, .span2 {
+    height: 15px;
+    width: 160px;
+    background: black;
+    display: block;
+}
+.span1 {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 95px;
+    left: 15px;
+}
+.span2  {
+    position: absolute;
+    top: 95px;
+    left: 15px;
+    transform: rotate(135deg);
+}
